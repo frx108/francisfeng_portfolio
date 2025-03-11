@@ -34,22 +34,27 @@ This project visualizes exhibition trends at The Metropolitan Museum of Art (The
 
 ## Visualizations
 1. **The MET Exhibitions by Theme (PCA Analysis)**
+
         - Uses Principal Component Analysis (PCA) and K-Means clustering to identify thematic groupings of exhibitions based on their descriptions.  
         - Shows how exhibitions cluster into themes such as "Contemporary Art," "Photography & Visual Media," and "Cultural Heritage." 
 
 2. **Evolution of Curatorial Themes (2015-2024)**
+
         - Applies Non-Negative Matrix Factorization (NMF) topic modeling to analyze curatorial trends over time.  
         - Reveals shifts in focus, such as increased attention to contemporary artists or heritage conservation.
 
 3. **Global Coverage of The MET Exhibitions**
+
         - A Folium-based interactive map visualizing the geographic coverage of exhibitions.
         - Highlights The Met's global curatorial scope and regional exhibition trends.
 
 4. **Top 5 Most Visited Exhibitions (2015-2017)**
+
         - A treemap displaying the most attended exhibitions of 2015, 2016, and 2017.
         - Provides insight into visitor preferences and the impact of blockbuster exhibitions.
 
 ### Visualization Selection Rationale
+
     - Each visualization was chosen to highlight a specific aspect of The Met's exhibition data, balancing thematic, temporal, geographic, and audience-focused perspectives.  
     - PCA and clustering reveal latent themes among exhibitions, topic modeling tracks curatorial evolution, mapping shows spatial distribution, and attendance data captures visitor engagement. 
 
