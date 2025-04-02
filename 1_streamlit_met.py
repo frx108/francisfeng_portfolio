@@ -19,6 +19,7 @@ from streamlit_folium import folium_static
 import matplotlib.pyplot as plt
 from sklearn.decomposition import NMF
 import spacy
+spacy.cli.download("en_core_web_sm")
 import random
 
 
